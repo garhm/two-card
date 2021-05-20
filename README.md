@@ -1,26 +1,33 @@
 
-<div style="background: #308b5a; padding: 10px; color: #fef72d">
-
-# Test Project
+# About this app
 
 <p>
-Create a mini game where clicking the button generate several hand cards. Please be sure to fork this repo, update this readme with any notes on your code.
+    Yaroslav Zakharov implementation of tech assignment for cordial
 </p>
 
-- a hand has seven cards
-- the winner of the game will be by the amount of pairs a hand has
-- each "deal" will create a brand new "game" with new hands
-- display those hands
-- mark each hand "pairs" with proper border. Be sure to that diff pairs has diff borders
-- game has two hands by default
-- organized code
+## About App
 
-### Extra
+Simple card game:
 
-- option to add or remove hands 2-4
-- tests
+1. 2 - 4 players
+2. Each player gets 7 cards
+3. 2 players by default
+3. The winner of the game the player with the biggest amount of pairs
+4. If there are more then one and less then max winners, this players considered winners
+5. The game finish with the draw if all players have the same amount of pairs
 
-### Helpers
+## Start
 
-#### example card
-<img src="http://h3h.net/images/cards/diamond_9.svg" />
+1. yarn install
+2. yarn run start
+
+## Can be improved
+
+1. Add tests (didn't have enough time for it)
+2. Add player names to settings
+3. UI/UX improvements
+4. Add animation
+5. Add deckSize setting
+6. Show winner text and number of pairs near each player name
+
+
